@@ -19,13 +19,13 @@ const {
 // <String, ExecuteStatus>
 const verifyingUser = new Map();
 
-async function generateInvite(guildID, channelID) {
-  const link = await client.guilds.cache
-    .get(guildID)
-    .channels.cache.get(channelID)
-    .createInvite({ maxUses: 1, maxAge: 600000 });
-  return link;
-}
+//async function generateInvite(guildID, channelID) {
+//  const link = await client.guilds.cache
+//    .get(guildID)
+//    .channels.cache.get(channelID)
+//    .createInvite({ maxUses: 1, maxAge: 600000 });
+//  return link;
+//}
 
 client.on('message', (message) => {
   if (message.author.bot) {
