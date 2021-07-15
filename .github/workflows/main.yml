@@ -7,5 +7,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install modules
       run: yarn
+    - name: Create fake config
+      run: touch config.json
     - name: Run ESLint
       run: ./node_modules/.bin/eslint .
