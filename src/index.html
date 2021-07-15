@@ -1,0 +1,10 @@
+<script>
+  window.onload = () => {
+    const fragment = new URLSearchParams(window.location.hash.slice(1));
+    const accessToken = fragment.get("access_token");
+
+    document.write(`<p>Copy this and send it to the discord bot:<pre>${accessToken}</pre></p><b>DO NOT SEND THIS TO ANYONE ELSE!</b>`)
+
+    return 0;
+  };
+</script>

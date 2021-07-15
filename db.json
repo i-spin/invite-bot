@@ -1,0 +1,9 @@
+{
+  "last-checked": "UNIX TIME",
+  "users": {
+    "ID": {
+      "USES": 3,
+      "COOLDOWN": "COUNTS IN MS"
+    }
+  }
+}
