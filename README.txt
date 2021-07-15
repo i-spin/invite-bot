@@ -3,3 +3,7 @@ Development Status:
 
 ISSUES:
 	await fetching gist raw url
+
+TODO:
+	cooldown
+	actually generating invites
