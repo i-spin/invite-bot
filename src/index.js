@@ -14,7 +14,7 @@ const {
   botToken,
   callbackURL,
   githubToken,
-} = require('../config.json');
+} = require("../config.json");
 
 // <String, ExecuteStatus>
 const verifyingUser = new Map();
